@@ -23,3 +23,30 @@ test:
 production:
   <<: *default
   database: storage/production.sqlite3
+
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#   timeout: 5000
+
+# development:
+#   <<: *default
+#   database: your_database_name_development
+#   username: your_username
+#   password: your_password
+#   host: localhost
+
+# test:
+#   <<: *default
+#   database: your_database_name_test
+#   username: your_username
+#   password: your_password
+#   host: localhost
+
+# production:
+#   <<: *default
+#   database: your_database_name_production
+#   username: your_username
+#   password: your_password
+#   host: your_production_host
